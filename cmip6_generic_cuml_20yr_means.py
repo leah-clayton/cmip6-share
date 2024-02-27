@@ -83,7 +83,7 @@ def create_dir_if_not_exists(output_loc):
 #%% Start calculations
 for ssp in ssps:
     input_path = f'/home/cmip6_{ssp}_app_water'
-    output_path = f'/home/lkc33/cmip6_{ssp}_app_water_analysis'
+    output_path = f'/home/cmip6_{ssp}_app_water_analysis'
     create_dir_if_not_exists(output_path)
 
     #%% Time period 1: 2021-2040    
